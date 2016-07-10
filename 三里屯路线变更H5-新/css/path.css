@@ -1,0 +1,612 @@
+@import url("reset.css");
+img {
+  max-width: 100%; }
+
+body {
+  -webkit-user-select: none;
+  -webkit-font-size-adjust: none;
+  -webkit-tap-highlight-color: reba(0, 0, 0, 0); }
+
+input, select, textarea {
+  -webkit-appearance: none; }
+
+a {
+  text-decoration: none; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+html, body, .wrap {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+.wrap {
+  width: 100%;
+  height: 100%;
+  position: relative; }
+
+/*-------------one--------------*/
+.one {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  padding-top: 25px;
+  position: absolute; }
+  .one h1 {
+    width: 100%;
+    height: 79px;
+    background: url(../img/one_1.jpg) no-repeat center center;
+    background-size: contain; }
+    .one h1 img {
+      width: 64px;
+      height: 63px;
+      position: absolute;
+      left: 51%;
+      top: 10%;
+      -webkit-animation: swing .8s infinite; }
+
+.one_girl {
+  width: 100%;
+  height: 212px;
+  padding-top: 35px;
+  z-index: 9;
+  position: absolute;
+  left: 33.3%;
+  top: 18%;
+  -webkit-animation: _girl 1s; }
+  .one_girl img {
+    width: 165px; }
+
+@-webkit-keyframes _girl {
+  0% {
+    -webkit-transform: translate3d(-150px, 150px, 0);
+    -webkit-transition: all 1s; }
+  25% {
+    -webkit-transform: translate3d(-110px, 150px, 0);
+    -webkit-transition: all 1s; }
+  50% {
+    -webkit-transform: translate3d(-80px, 80px, 0);
+    -webkit-transition: all 1s; }
+  75% {
+    -webkit-transform: translate3d(-40px, 40px, 0);
+    -webkit-transition: all 1s; }
+  100% {
+    -webkit-transform: translate3d(0x, 0, 0);
+    -webkit-transition: all 1s; } }
+.one_house {
+  width: 100%;
+  height: 360px;
+  background: url(../img/one_4.jpg) no-repeat center center;
+  background-size: contain;
+  position: absolute;
+  left: 0;
+  bottom: -15%;
+  z-index: 1; }
+  .one_house img {
+    width: 50px;
+    height: 35px;
+    position: absolute;
+    left: 50%;
+    bottom: 30%;
+    -webkit-animation: hua 1s infinite; }
+
+@-webkit-keyframes hua {
+  0% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0); }
+  50% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 20px, 0); }
+  100% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0); } }
+/*-------------two--------------*/
+.two {
+  width: 100%;
+  height: 100%;
+  background: #EBEBEB;
+  position: absolute; }
+  .two h2 {
+    width: 100%;
+    height: 10%;
+    background: #302F34;
+    color: #fff;
+    line-height: 58px;
+    text-align: center;
+    position: relative; }
+    .two h2 b {
+      font-weight: bold;
+      font-size: 30px;
+      position: absolute;
+      left: 5%; }
+    .two h2 span {
+      position: absolute;
+      left: 10%; }
+    .two h2 i {
+      height: 58px;
+      text-align: center;
+      font-weight: bold;
+      font-size: 25px; }
+    .two h2 img {
+      width: 28px;
+      height: 26px;
+      position: absolute;
+      right: 5%;
+      top: 15px; }
+
+.two_word {
+  width: 100%;
+  height: 80%;
+  border: 1px solid #C7C7C9;
+  position: relative; }
+  .two_word ul {
+    width: 80%;
+    padding-left: 10%; }
+    .two_word ul li {
+      padding-top: 2px;
+      height: 10%; }
+      .two_word ul li .img1 {
+        -webkit-animation-delay: 0.4s; }
+      .two_word ul li .img2 {
+        -webkit-animation-delay: 0.7s; }
+      .two_word ul li .img3 {
+        -webkit-animation-delay: 1.0s; }
+      .two_word ul li .img4 {
+        -webkit-animation-delay: 1.3s; }
+      .two_word ul li .img5 {
+        -webkit-animation-delay: 1.6s; }
+      .two_word ul li img {
+        width: 554px; }
+
+.two_arrows {
+  width: 100%;
+  -webkit-animation-delay: 3.0s; }
+  .two_arrows img {
+    width: 45px;
+    position: absolute;
+    left: 50%;
+    bottom: 5%;
+    -webkit-animation: hua 1s infinite; }
+
+.two_footer {
+  width: 100%;
+  height: 10%;
+  background: #F4F4F6;
+  position: absolute;
+  bottom: 0; }
+  .two_footer p {
+    width: 90%;
+    padding-left: 5%; }
+    .two_footer p input {
+      width: 180px;
+      height: 25px;
+      border-radius: 5px;
+      margin-top: 14px; }
+    .two_footer p img {
+      width: 22px;
+      height: 21px; }
+
+/*-------------three--------------*/
+.three {
+  width: 100%;
+  height: 100%;
+  position: absolute; }
+  .three p {
+    width: 80%;
+    padding-left: 10%; }
+    .three p:nth-child(1) {
+      padding-top: 82px; }
+    .three p:nth-child(2) {
+      padding-top: 66px; }
+
+/*-------------four--------------*/
+.four {
+  width: 100%;
+  height: 100%;
+  position: absolute; }
+  .four .four_big_img {
+    width: 100%;
+    height: 60%;
+    background: url(../img/four_1.png) no-repeat center center;
+    background-size: 100% 100%;
+    position: relative; }
+    .four .four_big_img img:nth-child(1) {
+      width: 45px;
+      position: absolute;
+      left: 33%;
+      top: 41%; }
+    .four .four_big_img img:nth-child(2) {
+      width: 45px;
+      position: absolute;
+      left: 43%;
+      top: 30%; }
+    .four .four_big_img img:nth-child(3) {
+      width: 45px;
+      position: absolute;
+      left: 47%;
+      top: 41%; }
+    .four .four_big_img img:nth-child(4) {
+      width: 45px;
+      position: absolute;
+      left: 54%;
+      top: 38%; }
+    .four .four_big_img img:nth-child(5) {
+      width: 114px;
+      position: absolute;
+      left: 33%;
+      top: 28%; }
+    .four .four_big_img img:nth-child(6) {
+      width: 70px;
+      position: absolute;
+      left: 40%;
+      top: 33%; }
+    .four .four_big_img img:nth-child(7) {
+      width: 191px;
+      position: absolute;
+      left: 21%;
+      top: 60%; }
+  .four .four_p1 {
+    width: 80%;
+    height: 20%;
+    position: relative;
+    -webkit-animation-delay: 0.8s; }
+    .four .four_p1 img {
+      position: absolute;
+      left: 10%; }
+    .four .four_p1 span {
+      color: yellow;
+      font-weight: bold;
+      font-size: 12px;
+      position: absolute;
+      right: -2%;
+      top: 30%;
+      -webkit-animation: swing 1s infinite; }
+  .four .four_p2 {
+    width: 80%;
+    height: 20%;
+    position: relative;
+    -webkit-animation-delay: 1s; }
+    .four .four_p2 img {
+      position: absolute;
+      left: 10%; }
+    .four .four_p2 span {
+      color: yellow;
+      font-weight: bold;
+      font-size: 12px;
+      position: absolute;
+      left: 14%;
+      top: 34%;
+      -webkit-animation: swing 1s infinite; }
+    .four .four_p2 b {
+      color: yellow;
+      font-weight: bold;
+      font-size: 12px;
+      position: absolute;
+      left: 52%;
+      top: 33%;
+      -webkit-animation: swing 1s infinite; }
+
+/*-------------five--------------*/
+.five {
+  width: 100%;
+  height: 100%;
+  position: absolute; }
+  .five .five_big_img {
+    width: 100%;
+    height: 60%;
+    background: url(../img/five_1.png) no-repeat center center;
+    background-size: 100% 100%;
+    position: relative; }
+    .five .five_big_img img:nth-child(1) {
+      width: 12px;
+      position: absolute;
+      left: 48%;
+      top: 40%; }
+    .five .five_big_img img:nth-child(2) {
+      width: 12px;
+      position: absolute;
+      left: 54%;
+      top: 30%; }
+    .five .five_big_img img:nth-child(3) {
+      width: 40px;
+      position: absolute;
+      left: 46%;
+      top: 28%; }
+    .five .five_big_img img:nth-child(4) {
+      width: 70px;
+      position: absolute;
+      left: 40%;
+      top: 30%; }
+    .five .five_big_img img:nth-child(5) {
+      width: 191px;
+      position: absolute;
+      left: 22%;
+      top: 56%; }
+  .five .five_p1 {
+    width: 80%;
+    height: 20%;
+    position: relative;
+    -webkit-animation-delay: 0.8s; }
+    .five .five_p1 img {
+      position: absolute;
+      left: 10%; }
+    .five .five_p1 span {
+      color: yellow;
+      font-weight: bold;
+      font-size: 16px;
+      position: absolute;
+      right: 25%;
+      top: 25%;
+      -webkit-animation: swing 1s infinite; }
+    .five .five_p1 b {
+      color: yellow;
+      font-weight: bold;
+      font-size: 4px;
+      position: absolute;
+      left: 80%;
+      top: 28%;
+      -webkit-animation: swing 1s infinite; }
+  .five .five_p2 {
+    width: 80%;
+    height: 20%;
+    position: relative;
+    -webkit-animation-delay: 1s; }
+    .five .five_p2 img {
+      position: absolute;
+      left: 10%;
+      top: -25%; }
+    .five .five_p2 span {
+      color: yellow;
+      font-weight: bold;
+      font-size: 14px;
+      position: absolute;
+      left: 23%;
+      top: 13%;
+      -webkit-animation: swing 1s infinite; }
+
+/*-------------six--------------*/
+.six {
+  width: 100%;
+  height: 100%;
+  position: absolute; }
+  .six .six_big_img {
+    width: 100%;
+    height: 40%;
+    background: url(../img/six_1.png) no-repeat center center;
+    background-size: contain;
+    position: relative;
+    padding-bottom: 10%; }
+    .six .six_big_img img:nth-child(2) {
+      width: 35px;
+      position: absolute;
+      right: 3%;
+      top: 48%; }
+    .six .six_big_img img:nth-child(3) {
+      width: 70px;
+      position: absolute;
+      right: 2%;
+      top: 24%; }
+    .six .six_big_img img:nth-child(4) {
+      width: 185px;
+      position: absolute;
+      right: 15%;
+      top: 50%; }
+  .six .six_p1 {
+    padding-left: 5%;
+    padding-top: 60px;
+    position: relative;
+    -webkit-animation-delay: 0.2s; }
+    .six .six_p1 img {
+      width: 250px;
+      height: 60px; }
+    .six .six_p1 span {
+      color: yellow;
+      font-weight: bold;
+      font-size: 4px;
+      position: absolute;
+      right: 44%;
+      top: 65%;
+      -webkit-animation: swing 1s infinite; }
+    .six .six_p1 b {
+      width: 80px;
+      color: yellow;
+      font-weight: bold;
+      font-size: 4px;
+      position: absolute;
+      top: 65%;
+      left: 65%;
+      -webkit-animation: swing 1s infinite; }
+  .six .six_p2 {
+    padding-left: 5%;
+    -webkit-animation-delay: 0.5s; }
+    .six .six_p2 img {
+      width: 250px;
+      height: 60px; }
+  .six .six_p3 {
+    padding-left: 5%;
+    -webkit-animation-delay: 0.8s; }
+    .six .six_p3 img {
+      width: 250px;
+      height: 60px; }
+
+/*-------------serven--------------*/
+.serven {
+  width: 100%;
+  height: 100%;
+  position: absolute; }
+  .serven .serven_p1 {
+    width: 80%;
+    height: 150px;
+    position: relative; }
+    .serven .serven_p1 .serven_1_img {
+      position: absolute;
+      left: 10%;
+      top: 10%; }
+    .serven .serven_p1 .serven_kuai_img {
+      width: 65px;
+      position: absolute;
+      left: 76%;
+      top: 40%;
+      -webkit-animation: swing 1s infinite; }
+  .serven .serven_p2 {
+    width: 80%;
+    height: 100px;
+    color: yellow;
+    font-weight: bold;
+    position: relative; }
+    .serven .serven_p2 img {
+      position: absolute;
+      left: 10%;
+      top: 10%; }
+    .serven .serven_p2 span {
+      position: absolute;
+      left: 68%;
+      top: 47%;
+      -webkit-animation: swing 1s infinite; }
+    .serven .serven_p2 b {
+      position: absolute;
+      left: 78%;
+      top: 47%;
+      -webkit-animation: swing 1s infinite; }
+    .serven .serven_p2 e {
+      position: absolute;
+      left: 88%;
+      top: 47%;
+      -webkit-animation: swing 1s infinite; }
+    .serven .serven_p2 i {
+      position: absolute;
+      left: 98%;
+      top: 47%;
+      -webkit-animation: swing 1s infinite; }
+  .serven .serven_p3 {
+    width: 100%;
+    height: 180px;
+    background: url(../img/serven_stop.png) no-repeat center center;
+    background-size: contain; }
+  .serven .serven_p4 {
+    width: 100%;
+    height: 20px;
+    position: relative; }
+    .serven .serven_p4 img {
+      width: 20px;
+      height: 20px;
+      position: absolute;
+      left: 50%;
+      top: 30%;
+      -webkit-animation: hua 1s infinite; }
+
+/*-------------eight--------------*/
+.eight {
+  width: 100%;
+  height: 100%;
+  position: absolute; }
+  .eight p:nth-child(1) {
+    width: 80%;
+    height: 121px;
+    color: yellow;
+    font-weight: bold;
+    position: relative; }
+    .eight p:nth-child(1) img {
+      position: absolute;
+      left: 10%;
+      top: 37%; }
+    .eight p:nth-child(1) span {
+      position: absolute;
+      left: 66%;
+      top: 47%;
+      -webkit-animation: swing 1s infinite; }
+    .eight p:nth-child(1) b {
+      position: absolute;
+      right: -6%;
+      top: 52%;
+      -webkit-animation: swing 1s infinite; }
+    .eight p:nth-child(1) i {
+      position: absolute;
+      left: 45%;
+      top: 65%;
+      -webkit-animation: swing 1s infinite; }
+  .eight p:nth-child(2) {
+    width: 100%;
+    height: 103px;
+    position: relative; }
+    .eight p:nth-child(2) .eight_btn {
+      width: 103px;
+      height: 101px;
+      position: absolute;
+      left: 35%;
+      top: 40%; }
+    .eight p:nth-child(2) .eight_hand {
+      width: 58px;
+      height: 93px;
+      position: absolute;
+      left: 43%;
+      top: 80%; }
+  .eight p:nth-child(3) {
+    position: absolute;
+    left: 0;
+    bottom: 0; }
+  .eight .eight_hand {
+    -webkit-animation: hua 1s infinite; }
+
+/*-------------nine--------------*/
+.nine {
+  width: 100%;
+  height: 100%;
+  position: absolute; }
+  .nine p {
+    width: 80%; }
+    .nine p:nth-child(1) {
+      height: 25%;
+      position: absolute;
+      left: 5%;
+      top: 5%; }
+    .nine p:nth-child(2) {
+      height: 50%;
+      background: url(../img/nine_2.jpg) no-repeat center center;
+      background-size: contain;
+      position: absolute;
+      top: 20%;
+      left: 10%; }
+    .nine p:nth-child(3) {
+      height: 25%;
+      width: 120px;
+      position: absolute;
+      bottom: 0%;
+      left: 40%; }
+      .nine p:nth-child(3) .nine_p3_return {
+        width: 37px;
+        position: absolute;
+        bottom: 60%;
+        left: -80%; }
+
+.nine_p2 {
+  position: relative; }
+  .nine_p2 img:nth-child(1) {
+    width: 42px;
+    position: absolute;
+    bottom: 18%;
+    left: 0%; }
+  .nine_p2 img:nth-child(2) {
+    width: 42px;
+    position: absolute;
+    top: 15%;
+    left: 0%; }
+  .nine_p2 img:nth-child(3) {
+    width: 28px;
+    position: absolute;
+    top: -5%;
+    right: -2%; }
+  .nine_p2 img:nth-child(4) {
+    width: 28px;
+    position: absolute;
+    bottom: 0%;
+    right: -2%; }
+  .nine_p2 img:nth-child(5) {
+    width: 30px;
+    position: absolute;
+    bottom: 3%;
+    left: 54%; }
+
+/*# sourceMappingURL=path.css.map */
